@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>AngularJS</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="app5.js"></script>
+</head>
+<body ng-controller="myController">
+    <p>Ім'я: {{name}}</p>
+    <p>Прізвище: {{surname}}</p>
+    <p>Вік: {{age}}</p>
+    <br>
+    <a href="#" ng-click="changeName()">Змінити ім'я</a>
+    <a href="#" ng-click="changeSurname()">Змінити прізвище</a>
+    <a href="#" ng-click="changeAge()">Змінити вік</a>
+    <a href="index.html">Home page</a>
+</body>
+</html>
